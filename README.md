@@ -36,6 +36,9 @@ https://toyamaguchi.hatenablog.com/entry/2020/03/31/233000
 - Sponsoring development of Rust GUI library iced (Cryptowatch blog) <br>
 https://blog.cryptowat.ch/sponsoring-rust-gui-library-iced/
 
+- Ludusavi is a tool for backing up your PC video game save data, written in Rust.
+https://github.com/mtkennerly/ludusavi
+
 - iced-plot <br>
 https://github.com/paulkernfeld/iced-plot
 
