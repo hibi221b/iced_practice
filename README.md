@@ -20,7 +20,15 @@ hibi221b@hibi221b-2 sandbox % cargo run -p counter
 ```
 
 # helpful links
-- https://github.com/hecrj/iced/tree/master/examples
-- https://github.com/forcia/rustbook/tree/master/ch07
-- https://hnakamur.github.io/blog/2020/08/11/tried-rust-gui-library-iced/
-- https://toyamaguchi.hatenablog.com/entry/2020/03/31/233000
+
+- iced公式examples <br>
+https://github.com/hecrj/iced/tree/master/examples
+
+- 実践Rustプログラミング入門Chapter7 GUIアプリケーション <br>
+https://github.com/forcia/rustbook/tree/master/ch07
+
+- Rustで書かれたGUIライブラリーのicedを試してみた <br>
+https://hnakamur.github.io/blog/2020/08/11/tried-rust-gui-library-iced/
+
+- Rust GUI crate調査: iced <br>
+https://toyamaguchi.hatenablog.com/entry/2020/03/31/233000
