@@ -1,6 +1,9 @@
 # iced_practice
 icedで作ったものをまとめていきたいと思います。
 
+# useful examples
+- https://github.com/hecrj/iced/tree/master/examples
+
 # how to use 
 
 ```terminal
