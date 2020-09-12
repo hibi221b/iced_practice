@@ -1,9 +1,6 @@
 # iced_practice
 icedで作ったものをまとめていきたいと思います。
 
-# useful examples
-- https://github.com/hecrj/iced/tree/master/examples
-
 # how to use 
 
 ```terminal
@@ -21,3 +18,9 @@ counter
 
 hibi221b@hibi221b-2 sandbox % cargo run -p counter
 ```
+
+# helpful links
+- https://github.com/hecrj/iced/tree/master/examples
+- https://github.com/forcia/rustbook/tree/master/ch07
+- https://hnakamur.github.io/blog/2020/08/11/tried-rust-gui-library-iced/
+- https://toyamaguchi.hatenablog.com/entry/2020/03/31/233000
