@@ -32,3 +32,6 @@ https://hnakamur.github.io/blog/2020/08/11/tried-rust-gui-library-iced/
 
 - Rust GUI crate調査: iced <br>
 https://toyamaguchi.hatenablog.com/entry/2020/03/31/233000
+
+- Sponsoring development of Rust GUI library iced (Cryptowatch blog) <br>
+https://blog.cryptowat.ch/sponsoring-rust-gui-library-iced/
