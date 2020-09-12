@@ -38,3 +38,6 @@ https://blog.cryptowat.ch/sponsoring-rust-gui-library-iced/
 
 - iced-plot <br>
 https://github.com/paulkernfeld/iced-plot
+
+- Draw img with iced Rust <br>
+https://stackoverflow.com/questions/62712245/draw-img-with-iced-rust
