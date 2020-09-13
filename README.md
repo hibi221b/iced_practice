@@ -30,6 +30,9 @@ hibi221b@hibi221b-2 sandbox % cargo run -p counter
 - iced公式examples <br>
 https://github.com/hecrj/iced/tree/master/examples
 
+- iced zulip chat <br>
+https://iced.zulipchat.com/
+
 - 実践Rustプログラミング入門Chapter7 GUIアプリケーション <br>
 https://github.com/forcia/rustbook/tree/master/ch07
 
