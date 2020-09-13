@@ -19,6 +19,12 @@ counter
 hibi221b@hibi221b-2 sandbox % cargo run -p counter
 ```
 
+# contents
+
+|[counter](https://github.com/hibi221b/iced_practice/tree/master/sandbox/counter)|[counter_next](https://github.com/hibi221b/iced_practice/tree/master/sandbox/counter_next)|[bmi_calc](https://github.com/hibi221b/iced_practice/tree/master/sandbox/bmi_calc)|
+|:---:|:---:|:---:|
+|<img src="./assets/counter.gif">|<img src="./assets/counter_next.gif">|<img src="./assets/bmi_calc.gif">|
+
 # helpful links
 
 - iced公式examples <br>
