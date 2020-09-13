@@ -321,6 +321,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "counter_next"
+version = "0.1.0"
+dependencies = [
+ "iced",
+]
+
+[[package]]
 name = "crossbeam-deque"
 version = "0.7.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
