@@ -3,4 +3,5 @@
 members = [
     "sandbox/counter",
     "sandbox/counter_next",
+    "sandbox/bmi_calc",
 ]
