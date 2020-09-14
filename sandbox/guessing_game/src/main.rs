@@ -19,9 +19,10 @@ struct GuessingGame {
     reset_button_state: button::State,
     input_guess_state: text_input::State,
     input_guess_value: String,
-    total_count: String, //プレイ回数
-    result_message: String, //予測した値があたったかどうか
-    random_number_str: String //ランダムに生成された値
+    //total_countとrandom_numberをStringからu32に変更
+    total_count: u32, //プレイ回数
+    random_number: u32, //ランダムに生成された値
+    result_message: String //予測した値があたったかどうか
 }
 
 #[derive(Debug, Clone)]
@@ -45,8 +46,7 @@ impl Sandbox for GuessingGame {
 
     fn new() -> Self {
         Self {
-            random_number_str: generate_random_value(GEN_RANGE_LOW, GEN_RANGE_HIGH).to_string(),
-            total_count: "0".to_string(),
+            random_number: generate_random_value(GEN_RANGE_LOW, GEN_RANGE_HIGH),
             result_message: "Guess the Number!".to_string(),
             ..Self::default()
         }
@@ -63,16 +63,13 @@ impl Sandbox for GuessingGame {
             //予測値を入力後エンターが押されたら
             Message::InputGuessOnSubmit => {
                 // - total_count(プレイ回数)を増やす
-                let mut count = self.total_count.parse::<u32>().unwrap();
-                count += 1;
-                self.total_count = count.to_string();
+                self.total_count += 1;
 
                 // - 予測値とランダムな値を比較
                 if self.input_guess_value.parse::<u32>().is_ok() {
                     let input_val: u32 = self.input_guess_value.parse().unwrap();
-                    let random_val :u32 = self.random_number_str.parse().unwrap();
 
-                    let result = match input_val.cmp(&random_val) {
+                    let result = match input_val.cmp(&self.random_number) {
                         Ordering::Less => "Too small!",
                         Ordering::Greater => "Too big!",
                         Ordering::Equal => "You win!"
@@ -87,10 +84,10 @@ impl Sandbox for GuessingGame {
 
             Message::ResetButtonPressed => {
                 // - 新しくランダムな値をつくる
-                self.random_number_str = generate_random_value(GEN_RANGE_LOW, GEN_RANGE_HIGH).to_string();
+                self.random_number = generate_random_value(GEN_RANGE_LOW, GEN_RANGE_HIGH);
 
                 // - プレイカウントを0にする
-                self.total_count = "0".to_string();
+                self.total_count = 0;
 
                 //結果のメッセージを変更
                 self.result_message = "Guess the Number!".to_string();
