@@ -5,4 +5,5 @@ members = [
     "sandbox/counter_next",
     "sandbox/bmi_calc",
     "sandbox/guessing_game",
+    "sandbox/img_viewer"
 ]
