@@ -51,9 +51,6 @@ https://github.com/mtkennerly/ludusavi
 - iced-plot <br>
 https://github.com/paulkernfeld/iced-plot
 
-- Draw img with iced Rust <br>
-https://stackoverflow.com/questions/62712245/draw-img-with-iced-rust
-
 - Visual novel manager <br>
 https://github.com/Forlos/vn_manager
 
