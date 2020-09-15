@@ -3,3 +3,4 @@
 3. bmi_calc
 4. guessing_game
 5. img_viewer
+6. lang_ja
