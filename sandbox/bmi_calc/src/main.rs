@@ -42,7 +42,7 @@ impl Sandbox for BMI {
         String::from("BMI Calculator")
     }
 
-    fn update(&mut self, message: Message) {
+    fn update(&mut self, message: Self::Message) {
         match message {
             Message::InputHeight(value) => self.input_height_value = value,
             Message::InputWeight(value) => self.input_weight_value = value,
@@ -62,7 +62,7 @@ impl Sandbox for BMI {
         }
     }
 
-    fn view(&mut self) -> Element<Message> {
+    fn view(&mut self) -> Element<Self::Message> {
 
         let input_height = Column::new()
             .push(Text::new("Height (cm) :"))

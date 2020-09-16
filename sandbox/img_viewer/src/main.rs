@@ -28,10 +28,10 @@ impl Sandbox for ImageExample {
         String::from("Image")
     }
 
-    fn update(&mut self, _message: Message) {
+    fn update(&mut self, _message: Self::Message) {
     }
 
-    fn view(&mut self) -> Element<Message> {
+    fn view(&mut self) -> Element<Self::Message> {
 
         let img = |path| {
             //Cargo.tomlのfeaturesにimageを追加する

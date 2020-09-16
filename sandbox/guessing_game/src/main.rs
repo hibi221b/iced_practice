@@ -56,7 +56,7 @@ impl Sandbox for GuessingGame {
         String::from("Guessing Game")
     }
 
-    fn update(&mut self, message: Message) {
+    fn update(&mut self, message: Self::Message) {
         match message {
             Message::InputGuessNumberChanged(value) => self.input_guess_value = value,
 
@@ -95,7 +95,7 @@ impl Sandbox for GuessingGame {
         }
     }
 
-    fn view(&mut self) -> Element<Message> {
+    fn view(&mut self) -> Element<Self::Message> {
 
         let reset_button_col = Column::new()
             .push(

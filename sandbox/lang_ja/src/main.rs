@@ -34,13 +34,13 @@ impl Sandbox for CustomFontExample {
         String::from("Lang ja")
     }
 
-    fn update(&mut self, message: Message) {
+    fn update(&mut self, message: Self::Message) {
         match message {
             Message::InputChanged(value) => self.text_input_value = value,
         }
     }
 
-    fn view(&mut self) -> Element<Message> {
+    fn view(&mut self) -> Element<Self::Message> {
 
         let text_input_col = Column::new()
             .push(
