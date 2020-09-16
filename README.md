@@ -25,6 +25,10 @@ hibi221b@hibi221b-2 sandbox % cargo run -p counter
 |:---:|:---:|:---:|
 |<img src="./assets/counter.gif">|<img src="./assets/counter_next.gif">|<img src="./assets/bmi_calc.gif">|
 
+|[guessing_game](https://github.com/hibi221b/iced_practice/tree/master/sandbox/guessing_game)|[img_viewer](https://github.com/hibi221b/iced_practice/tree/master/sandbox/img_viewer)|[lang_ja](https://github.com/hibi221b/iced_practice/tree/master/sandbox/lang_ja)|
+|:---:|:---:|:---:|
+|<img src="./assets/guessing_game.gif">|<img src="./assets/img_viewer.gif">|<img src="./assets/lang_ja.gif">|
+
 # helpful links
 
 - iced公式examples <br>
