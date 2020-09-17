@@ -7,5 +7,6 @@ members = [
     "sandbox/guessing_game",
     "sandbox/img_viewer",
     "sandbox/lang_ja",
-    "todo/calc"
+    "sandbox/ttf_icon",
+    "todo/calc",
 ]
