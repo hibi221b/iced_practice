@@ -6,5 +6,6 @@ members = [
     "sandbox/bmi_calc",
     "sandbox/guessing_game",
     "sandbox/img_viewer",
-    "sandbox/lang_ja"
+    "sandbox/lang_ja",
+    "todo/calc"
 ]
