@@ -4,3 +4,4 @@
 4. guessing_game
 5. img_viewer
 6. lang_ja
+7. ttf_icon
