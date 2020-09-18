@@ -68,7 +68,7 @@ fn parser(expression: &str) -> u32 {
 impl Calc {
     fn push_expression(&mut self, ch: char) {
         //入力範囲を越えたら、Error表示
-        //その後、その後Errorを消し、式を入力できる状態にする
+        //その後、Errorを消し、式を入力できる状態にする
         if self.expression.contains("Error") {
             self.expression.clear();
         }
@@ -100,10 +100,11 @@ impl Sandbox for Calc {
             Message::ButtonPressed(ch) => {
                 match ch {
                     '=' => {
-                        //入力した式をコピ
+                        //入力した式をコピー
                         self.tmp_message = self.expression.clone();
                         
                         todo!();
+                        //**************************************************************************************************
                         let result = parser(&self.expression).to_string();
                         println!("{}", self.expression);
 
