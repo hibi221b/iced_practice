@@ -37,6 +37,9 @@ https://github.com/hecrj/iced/tree/master/examples
 - iced zulip chat <br>
 https://iced.zulipchat.com/
 
+- Rust 2021: GUI <br>
+https://raphlinus.github.io/rust/druid/2020/09/28/rust-2021.html
+
 - 実践Rustプログラミング入門Chapter7 GUIアプリケーション <br>
 https://github.com/forcia/rustbook/tree/master/ch07
 
