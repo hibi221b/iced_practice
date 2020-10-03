@@ -8,5 +8,6 @@ members = [
     "sandbox/img_viewer",
     "sandbox/lang_ja",
     "sandbox/ttf_icon",
+    "sandbox/application_icon",
     "todo/calc",
 ]

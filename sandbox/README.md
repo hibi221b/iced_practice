@@ -5,3 +5,4 @@
 5. img_viewer
 6. lang_ja
 7. ttf_icon
+8. application_icon
