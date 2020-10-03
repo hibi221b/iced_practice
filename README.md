@@ -29,6 +29,11 @@ hibi221b@hibi221b-2 sandbox % cargo run -p counter
 |:---:|:---:|:---:|
 |<img src="./assets/guessing_game.gif">|<img src="./assets/img_viewer.gif">|<img src="./assets/lang_ja.gif">|
 
+# news
+
+- Rust 2021: GUI <br>
+https://raphlinus.github.io/rust/druid/2020/09/28/rust-2021.html
+
 # helpful links
 
 - iced公式examples <br>
@@ -36,9 +41,6 @@ https://github.com/hecrj/iced/tree/master/examples
 
 - iced zulip chat <br>
 https://iced.zulipchat.com/
-
-- Rust 2021: GUI <br>
-https://raphlinus.github.io/rust/druid/2020/09/28/rust-2021.html
 
 - 実践Rustプログラミング入門Chapter7 GUIアプリケーション <br>
 https://github.com/forcia/rustbook/tree/master/ch07
