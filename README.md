@@ -48,6 +48,9 @@ https://hnakamur.github.io/blog/2020/08/11/tried-rust-gui-library-iced/
 - Rust GUI crate調査: iced <br>
 https://toyamaguchi.hatenablog.com/entry/2020/03/31/233000
 
+- Rust(with Iced)でGUIのタイマーを作ってみた <br>
+https://zenn.dev/kbone/articles/2020-09-24-kbone-rust-with-iced-gui-timer
+
 # github 
 
 - iced公式examples <br>
