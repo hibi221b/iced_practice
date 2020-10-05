@@ -79,3 +79,18 @@ https://github.com/Askannz/oxydicom
 
 - DatePicker <br>
 https://github.com/onai/iced-datepicker
+
+- An Amethyst addon to create your game UI using Iced. <br>
+https://github.com/amethyst/amethyst_iced
+
+- Composable component to play videos in any Iced application built on the excellent GStreamer library. <br>
+https://github.com/jazzfool/iced_video_player
+
+- An offline typing test, written using Rust and Iced. <br>
+https://github.com/Ace4896/typetest
+
+- An example of vst-rs and iced <br>
+https://github.com/hatoo/vst-rs-example-iced
+
+- practice_iced <br>
+https://github.com/diegodox/practice_iced
