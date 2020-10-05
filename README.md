@@ -53,6 +53,9 @@ https://toyamaguchi.hatenablog.com/entry/2020/03/31/233000
 - iced公式examples <br>
 https://github.com/hecrj/iced/tree/master/examples
 
+- Project Showcase #355 <br>
+https://github.com/hecrj/iced/issues/355
+
 - An extension to the Iced GUI library with useful widgets for audio applications <br>
 https://github.com/BillyDM/iced_audio
 
