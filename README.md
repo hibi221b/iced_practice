@@ -34,16 +34,13 @@ hibi221b@hibi221b-2 sandbox % cargo run -p counter
 - Rust 2021: GUI <br>
 https://raphlinus.github.io/rust/druid/2020/09/28/rust-2021.html
 
-# helpful links
+- Sponsoring development of Rust GUI library iced (Cryptowatch blog) <br>
+https://blog.cryptowat.ch/sponsoring-rust-gui-library-iced/
 
-- iced公式examples <br>
-https://github.com/hecrj/iced/tree/master/examples
+# helpful links
 
 - iced zulip chat <br>
 https://iced.zulipchat.com/
-
-- 実践Rustプログラミング入門Chapter7 GUIアプリケーション <br>
-https://github.com/forcia/rustbook/tree/master/ch07
 
 - Rustで書かれたGUIライブラリーのicedを試してみた <br>
 https://hnakamur.github.io/blog/2020/08/11/tried-rust-gui-library-iced/
@@ -51,8 +48,16 @@ https://hnakamur.github.io/blog/2020/08/11/tried-rust-gui-library-iced/
 - Rust GUI crate調査: iced <br>
 https://toyamaguchi.hatenablog.com/entry/2020/03/31/233000
 
-- Sponsoring development of Rust GUI library iced (Cryptowatch blog) <br>
-https://blog.cryptowat.ch/sponsoring-rust-gui-library-iced/
+# github 
+
+- iced公式examples <br>
+https://github.com/hecrj/iced/tree/master/examples
+
+- An extension to the Iced GUI library with useful widgets for audio applications <br>
+https://github.com/BillyDM/iced_audio
+
+- 実践Rustプログラミング入門Chapter7 GUIアプリケーション <br>
+https://github.com/forcia/rustbook/tree/master/ch07
 
 - Ludusavi is a tool for backing up your PC video game save data, written in Rust. <br>
 https://github.com/mtkennerly/ludusavi
