@@ -97,3 +97,6 @@ https://github.com/diegodox/practice_iced
 
 - iced_plotters_example <br>
 https://github.com/mobile-bungalow/iced_plotters_example
+
+- plotters_backend_iced <br>
+https://github.com/arctic-alpaca/plotters_backend_iced
